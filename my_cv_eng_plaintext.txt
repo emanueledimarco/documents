@@ -1,0 +1,159 @@
+* Born February 7, 1979 in Rome, Italy
+
+* Education
+Ph.D. in Physics at La Sapienza U. di Roma                      2003 - 2007
+Undergraduate degree in Physics at La Sapienza U. di Roma       1998 - 2002
+Diploma Liceo Scientifico                                       1993 - 1998
+
+* Academic Positions
+Permanent reasercher (III Livello) at INFN Roma               2015 - present
+Marie Curie Fellow at CERN, Geneva (CH)                       2014 - 2017
+Tolman Prize Fellow at California Institute of Technology, Pasadena (USA)                2011 -- 2014
+Postdoctoral research associate at U di Roma                  2009 - 2011
+INFN fellowship at CERN, Geneva (CH)                          2008 - 2009 
+Postdoctoral research associate at U di Roma                  2007 - 2009
+
+* Physics Experiments
+CMS (Higgs boson physics, W and Z physics, dark matter searches, ECAL software and hardware)                    2007 - present
+CYGNUS (TPC R&D, test-beams data analysis)                    2016 - present
+BaBar (CP violation in b->s decays, RPC commissioner, IFR upgrade     2002 -- 2007
+
+* Academic Titles
+ASN Seconda Fascia settore conc. 02/A1 Fisica Sperimentale delle interazioni fondamentali  2012 - present
+Idoneita' INFN  Selection for permanent researcher (experimental subnuclear physics)       2010
+Idoneita' INFN  Selection for temporary researcher (experimental physics)                  2009
+
+* Teaching and tutoring Experience
+2016 - present: co-advisor of one Ph.D. thesis of CMS Roma group (M. Cipriani)
+in 2015, co-advisor of one master thesis of CMS Roma group (M. Cipriani)
+in 2016 - 2017, advisor of two master thesis of Trieste CMS group (A. Da Rold, J. Magro)
+in 2011 - 2014, advisor of 4 bachelor thesis of the Caltech group
+in 2011, advisor of one master thesis of Trieste CMS group (A. Schizzi)
+in 2005, advisor of one master thesis of Torino BaBar group (M. Pelliccioni)
+academic year 2004 - 2005: teaching assistant in Laboratory of Informatics for Physicists for undergraduate students at U. di Roma La Sapienza.
+
+* Project leaderships
+CMS   - Rome computing center co-coord. (5 people)                2017 - present
+      - ECAL detector performance group (80 people)               2014 - 2017
+      - H->ZZ->4l analysis coordinator (20 people)                2013 - 2104
+      - ECAL institution board memeber (Caltech)                  2013 - 2014
+      - Electron and photon reconstruction sub-group (20 people)  2013 - 2014
+      - H->WW analysis group (40 people)                          2011 - 2012
+      - ECAL laser monitoring system (hardware)                   2011 - 2014
+      - ECAL high voltage system                                  2009 - 2011
+      - ECAL data quality monitoring (5 people)                   2009 - 2011
+BaBar - Flavor b-tagging efficiencies responsible                 2006
+      - Prompt reconstruction farm in Padova (5 people)           2006
+      - Tracking reconstruction task force                        2005
+
+* Books
+Co-editor of the review book Discovery of the Higgs Boson, documenting the studies done at high energy colliders 
+(LEP, Tevatron and LHC) for the search of the Higgs boson. Published by World Scientific in 2016 (ISBN: 978-981-4425-44-5).
+
+* Awards
+2009: "CMS Achievement Award", for outstanding contribution in the CMS ECAL commissioning 
+(ECAL high voltage system -hardware- and data quality monitoring -software-).
+
+* Research activity
+My research activity focused on the experimental high energy physics.
+
+From 2002 to 2007 it focused on the study of CP violation in the B
+meson weak decays and the search of indirect signs of physics beyond
+the Standard Model in the flavor sector through charmless b->s
+decays. Measurement of the time-dependent CP violation of the B meson
+in three kaon decays, first in the quasi-two-body approximation, then
+including interference effects through the Dalitz plot.  A new
+spin-zero resonance decaying in two charged kaons with mass around
+1.55 GeV, the X_0(1550), have been found as contributing to the Dalitz
+plot. Usage of ad hoc B production vertex measurement, based on K0S
+vertex and e+e- interaction point constraint. These measurements
+highly constrained the presence of non Standard Model processes with
+large flavor violation.  I have been a collaborator of BaBar
+experiment, running at the PEP-II e+e- collider in the SLAC laboratory
+(Stanford, California), from 2002 to 2009.
+
+From 2005 to 2006 operations manager and performance studies for the
+muon and neutral hadron identification system of BaBar based on RPC
+technology (IFR). Innovative algorithms for reconstructing and
+identifying K0L particles through the combined use of electro-magnetic
+calorimeter (EMC) and IFR. Demonstration of the aging effects of
+fluoridric acid (HF) production in the gas mixture and possible
+mitigations of it. This detector has shown a stable high efficiency
+through the entire data-taking period, also with the change of the
+operating mode from streamer to avalanche. Upgrade of the barrel
+section of the IFR with Limited Streamer Tubes (LST).
+
+In 2005 and 2006 responsible for the B flavour tagging efficiencies
+and vertexing resolution, with the measurements used by all the BaBar
+collaboration.  In 2005, tracking studies for the recovery of the loss
+of efficiency in K0S reconstruction after the shutdown, allowing a
+complete recovery at the start of the new run period of BaBar.
+
+In 2007 I joined CMS collaboration and was involved on several
+experimental activity regarding CMS commissioning: from 2007 to 2010
+the high voltage system for the avalanche photo-diodes and development
+of data quality monitoring of the electro-magnetic calorimeter
+(ECAL). On the software side, developer of the online and offline ECAL
+Data Quality Monitoring (DQM) system, which is still in use.
+
+From 2011 to 2014 responsible of the monitoring of PbWO4 crystals
+through a laser system, that is used to correct the continuous
+transparency variations due to radiation during the LHC fills.
+
+With the very early LHC data (36/pb at sqrt{s}=7 TeV), principal
+author of the first measurement of the cross section for W and Z
+production in association to up 4 jets.  With the same data,
+measurement of the W charge asymmetry, useful as constraints for the
+PDFs.  Contribution to the first measurement of inclusive W and Z
+production with the early data, with the electron channels.
+
+From 2008 developer of electron reconstruction and identification with
+the CMS early data. From 2013 to 2014 coordinator of the electrons and
+photons reconstruction sub-group of the EGamma physics group.
+
+Since 2007 involved in the direct search of the Higgs boson of the
+Standard Model (SM).  From 2011 to 2012 in CMS experiment analysis and
+convenorship of the physics group for the search of the Higgs boson
+with W pairs, that gave the first indication of the 125 GeV particle,
+and finally contributed to its discovery. Presented personally at the
+ICHEP 2012 conference in Melbourne. Proposed an analysis method to
+allow the mass measurement in the presence of two neutrinos up to 3%
+precision.  Measurements of the SM pp->W+W- production cross section
+at sqrt{s}=7 and 8 TeV.
+
+From 2012 to 2014 one of the principal authors of the Higgs search
+with ZZ->4l final state (on electrons optimization for the search and
+then on the properties measurement: mass and spin-CP. Coordinator of
+the analysis group and the editor of the paper on Run I data from 2013
+to 2014. Developer of an analysis technique for unfolding effective
+Higgs couplings from data through an 8D fit, in collaboration with
+theorists.
+
+From 2014 to 2017 convener of the CMS ECAL Detector Performace Group
+(DPG) as a group convener, responsible for the optimizations of its
+running conditions, energy reconstruction algorithms, calibrations. In
+this period I covered the transition from Run I to Run II, when LHC
+changed the bunch spacing from 50 to 25 ns.  In 2014, main developer
+of the of the completely new local energy reconstruction algorithm for
+ECAL. This allowed ECAL to maintain the optimal energy resolution in
+conditions of high pileup. The algorithm is still in use and
+performing well up to the unprecedented peak pileup of 60 events per
+bunch crossing. It is the standard algoithm foreseen for the HL LHC
+phase in the ECAL barrel.
+
+From 2015 to 2017 participated to the search of dark matter with MET
+plus jets in the final state with 2016 CMS data (monojet and invisible
+Higgs production), also with the supervision of a master degree
+student (Rome La Sapienza).
+
+From 2017, author of the preparatory measurements needed for the W
+mass measurement (W helicity, rapidity, charge asymmetry, Z and W pT
+measurements) with leptonic decays. Focus on both the experimental
+aspects (optimization of lepton scale up to 10^(-4) precision),
+theoretical aspects (PDFs, QCD and EWK uncertainties) and measurement
+aspects (global fitting procedure).
+
+From 2016 I am also involved in the development of a gas TPC prototype
+for WIMPs detection using a combined electronics and optical readout
+of GEM technology (R&D of the detectors and data analysis of the
+test-beams performed in 2016 and 2017 at the BTF in Frascati).
