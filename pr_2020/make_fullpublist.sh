@@ -1,4 +1,0 @@
-pdflatex publist_upto2019.tex
-bibtex publist_upto2019
-pdflatex publist_upto2019.tex
-pdflatex publist_upto2019.tex
