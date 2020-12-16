@@ -2,7 +2,7 @@
 \usepackage{geometry}
 \geometry{a4paper, top=2.3cm, bottom=2.3cm, left=2.3cm, right=2.3cm}
 \usepackage{graphicx} 
-\usepackage{marvosym}
+\usepackage{eurosym}
 \usepackage{xcolor}
 \usepackage{xspace}
 \usepackage{url}
@@ -68,7 +68,7 @@ di interazione dei fasci $e^+e^-$ del collisore SLAC di Stanford
 hanno vincolato in modo significativo la presenza di processi non
 previsti dal Modello Standard \textit{Flavor Changing Neutral
   Current}.  Ho effettuato queste misure utilizzando i dati
-dell'esperimento $BaBar$, collocato nel punto di interazione del
+dell'esperimento BaBar, collocato nel punto di interazione del
 collisore $e^+e^-$ di SLAC. Ho presentato i risultati a varie
 conferenze~[c1--c5].
 
@@ -134,8 +134,8 @@ Inoltre, dal 2011 al 2014 sono stato responsabile del sistema hardware
 con il laser, usato per il monitoring continuo delle variazioni di
 trasparenza dei cristalli di $PbWO_4$, dovute all'irraggiamento
 durante i fill di LHC. Durante questo periodo il laser
-\textit{lamp-pumped} al kripton \`e stato cambiato per evitare salti
-nella risposta dei cristalli ad ogni intervento sulla lampada. Ho
+\textit{lamp-pumped} \`e stato cambiato per evitare salti nella
+risposta dei cristalli ad ogni intervento sulla lampada. Ho
 partecipato all'installazione e messa in opera del nuovo laser
 \textit{diode-pumped} a stato solido. Il nuovo sistema \`e ancora in
 uso, ed ha dismostrato una stabilit\`a di intensit\`a meglio del 3\%,
@@ -145,31 +145,32 @@ LHC.
 \vskip 0.5 truecm
 
 Dal 2014 al 2017 sono stato il coordinatore del gruppo di performance
-(DPG) dell'ECAL, ruolo con la responsabilit\`a per l'ottimizzazione
-delle condizioni di presa dati, per la ricostruzione e la calibrazione
+(DPG) dell'ECAL, avendo la responsabilit\`a per l'ottimizzazione delle
+condizioni di presa dati, per la ricostruzione e per la calibrazione
 dei depositi di energia nel
 calorimetro~\cite{Khachatryan:2015iwa}. Durante questo periodo ho
 coperto la transizione dal Run1 al Run2, quando la spaziatura
-temporale tra i bunch di protoni LHC \`e cambiata da 50 a 25\,ns. Nel
+temporale tra i bunch di protoni LHC \`e diminuita da 50 a 25\,ns. Nel
 2014 ho sviluppato un algoritmo di ricostruzione dell'ampiezza del
 segnale digitizzato in ECAL totalmente innovativo, chiamato
 \textit{multifit}, e basato sul fit simultaneo di segnali di
-bunch-crossings diversi che si sovrappongono nell'intervallo di tempo
+bunch-crossing diversi che si sovrappongono nell'intervallo di tempo
 della digitizzazione.  Questo permette di azzerare il peggioramento di
-risoluzione energetica dovuto al pileup di eventi di bunch crossings
+risoluzione energetica dovuto al pileup di eventi di bunch-crossing
 vicini a quello nominale.  Questa tecnica, sviluppata durante lo
-shutdown, \`e stata applicata lungo tutto il corso di Run2, e, nel
-2016, estesa dalla ricostruzione offline anche al trigger di alto
+shutdown, \`e stata applicata nella ricostruzione offline lungo tutto
+il corso di Run2, e, nel 2016, estesa anche al trigger di alto
 livello.  Essa ha permesso di far rimanere inalterata la risoluzione
 energetica di ECAL rispetto agli effetti causati dal pileup, fino a 60
 interazioni per incrocio dei fasci, valore massimo durante il Run2.
 Il funzionamento dell'algoritmo \`e stato dimostrato su simulazioni
 fino a una media di 200 interazioni per incrocio dei fasci, e si
-prevede di usarlo per la fase di alta luminosit\`a di LHC, in cui le
-prestazioni possono essere anche migliorate grazie alla maggiore
-frequenza di campionamento dell'impulso. L'algoritmo e le sue
+prevede di usarlo per la fase di alta luminosit\`a di LHC: in questo
+caso le prestazioni del multifit migliorano ancora, grazie alla
+maggiore frequenza di campionamento dell'impulso. L'algoritmo e le sue
 performance ottenute sui dati di Run2 sono stati presentati a
-conferenza~[c13,c15] e pubblicati sulla rivista JINST nel 2020.
+conferenza~[c13,c15] e pubblicati sulla rivista \textit{JINST} nel
+2020.
 
 \vskip 0.5 truecm
 \textit{Ricostruzione e identificazione di elettroni e fotoni.}
@@ -257,23 +258,23 @@ produzione del bosone W, multi-differenziale nell'elicit\`a,
 rapidit\`a del W, e inoltre doppio-differenziale rispetto al momento
 trasverso e pseudo-rapidit\`a del leptone di decadimento, combinando
 gli stati finali con elettrone e muone. La misura \`e di rilevanza nel
-programma di misura della massa del bosone W~[c17] con l'obiettivo di
-raggiungere una precisione $\delta m_W/m_W\approx 10^{-4}$, perch\'e
-permette di vincolare in-situ le PDF del protone nell'intervallo di
-momento rilevante. La tecnica di unfolding sperimentale \`e
-all'avanguardia, avendo dovuto sviluppare all'uopo un algoritmo di
-minimizzazione della likelihood alternativo a \textsc{MINUIT}, basato
-su \textsc{TENSORFLOW}, che permette di trattare likelihood molto
-complesse, con cuspidi locali e un numero di parametri misurati
-simultaneamente superiore al migliaio. I risultati dell'analisi e la
-descrizione degli strumenti innovativi sono stati pubblicati sulla
-rivista Phys.\,Rev.\,D nel 2020. La stessa tecnica di misura e
-strumenti matematici si stanno usando per la prima misura della massa
-del W in CMS, basandosi solamente sulla cinematica del leptone,
-cercando di ridurre al minimo gli input teorici esterni, come le PDF e
-il modello dello spettro in $p_T$ del bosone W, con lo scopo di
-minimizzare le sistematiche dominanti di tale misura ad un collisore
-pp, quale LHC.
+programma di misura della massa del bosone W~[c17] che ha l'obiettivo
+di raggiungere una precisione $\delta m_W/m_W\approx 10^{-4}$,
+poich\'e permette di vincolare in-situ le PDF del protone
+nell'intervallo di momento rilevante. La tecnica di unfolding
+sperimentale \`e all'avanguardia, avendo sviluppato a tal scopo un
+algoritmo di minimizzazione della likelihood alternativo a
+\textsc{MINUIT}, basato su \textsc{TENSORFLOW}, che permette di
+trattare likelihood molto complesse, con cuspidi locali e un numero di
+parametri misurati simultaneamente superiore al migliaio. I risultati
+dell'analisi e la descrizione degli strumenti innovativi sono stati
+pubblicati sulla rivista \textit{Phys.\,Rev.\,D} nel 2020. La stessa
+tecnica di misura e strumenti matematici si stanno usando per la prima
+misura della massa del W in CMS, basandosi solamente sulla cinematica
+del leptone, allo scopo di ridurre al minimo gli input teorici
+esterni, come le PDF e il modello dello spettro in $p_T$ del bosone W.
+Ci\`o permetter\`a di minimizzare le sistematiche dominanti di tale
+misura ad un collisore pp, quale LHC.
 
 \vskip 0.5 truecm
 \textit{Centro di calcolo Tier-2 di Roma.}
@@ -288,7 +289,7 @@ circa 2500 core) e archiviazione dei dati (per un totale di circa
 dei dati raccolti dal LHC ogni anno, ed \`e connesso al sistema di
 \textit{grid} mondiale. Sono stato anche il responsabile della
 pianificazione degli upgrade e degli acquisti per il Tier-2 di CMS,
-per un investimento medio di circa 100 $kEur$ all'anno.
+per un investimento medio di circa 100\,k\euro{} all'anno.
 
 
 \vskip 1.0 truecm
@@ -334,6 +335,10 @@ Dal 2018 sono il responsabile della ricostruzione e del gruppo di
 analisi dati dell'esperimento CYGNO, il progetto che \`e previsto
 avere un volume sensibile di gas di circa 1 m$^3$, che dovrebbe essere
 installato ai Laboratori sotterranei del Gran Sasso nei prossimi anni.
+Ho definito e implementato il formato \textit{raw} dei dati in uscita
+dall'acquisizione, e quello prodotto dalla ricostruzione. Quest'ultimo
+\`e di immediata fruizione per tutta la collaborazione, inclusi
+numerosi studenti di laurea e di dottorato di ricerca in fisica.
 
 \clearpage
 
