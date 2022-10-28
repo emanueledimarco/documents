@@ -1,0 +1,192 @@
+% compile with:
+% makeTex relazione2022
+\documentclass[a4paper,12pt,twoside]{article}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{cite}
+\usepackage{multibib}
+\newcites{main}{Pubblicazioni scelte}
+\newcites{all}{Lista di tutte le altre pubblicazioni}
+\usepackage{filecontents}
+\usepackage[english,italian]{babel}
+\pagestyle{headings}
+\title{dfdfd}
+%\maketitle
+\usepackage[dvips]{graphicx}
+\usepackage{fontenc}
+\usepackage{epic,rotating,epsfig}
+\usepackage{times}
+\usepackage{fancyheadings}
+\linespread{1.2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hoffset = -1.0 cm
+\voffset = -2.0 cm
+\textheight = 24.0 cm
+\marginparwidth = 1.0 cm
+\evensidemargin = 1.0 cm
+\textwidth =16.1 cm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\fontencoding{OT1}\fontfamily{pbk}\fontseries{m}
+\selectfont
+\vspace*{2.20cm}
+
+\begin{center}
+  {\LARGE \bf Relazione sull'attivit\`a svolta dal 01/04/2018} \\
+  \vspace*{0.2cm}
+  {\large \it Emanuele Di Marco}
+\end{center}
+
+\vspace*{2.2cm}
+
+\hspace*{-0.6cm}{ L'attivit\`a da me svolta dal 1 Aprile 2018 ad oggi
+  si inserisce nella ricerca di fenomeni non previsti dal Modello
+  Standard delle particelle elementari, nonch\'e di misure di
+  parametri fondamentali dello stesso, soprattutto nell'ambito
+  dell'esperimento {\it CMS} al {\it Large Hadron Collider} del {\it
+    CERN} di Ginevra. In contemporanea ho sviluppato il lavoro
+  iniziato dalla data della mia assunzione del 2015 su un progetto di
+  ricerca diretta di segnali di materia oscura, dallo sviluppo di
+  rivelatori che sfrutti rinculi nucleari di eventuali particelle
+  massive di materia oscura, portandolo dalla fase di studio di
+  fattibilit\`a a un primo prototipo in grado di prendere dati ai {\it
+    Laboratori Nazionali del Gran Sasso}, cosiddetto esperimento {\it
+    CYGNO}.
+
+  Nel periodo dal 2018 ad oggi ho continuato la mia attivit\`a di
+  comprensione, miglioramento delle prestazioni del calorimetro
+  elettromagnetico di CMS, {\it ECAL}, attraverso la calibrazione
+  delle {\it pulse shape} dei fotorivelatori dei cristalli, usate come
+  input dell'algoritmo di ricostruzione dell'energia che ho sviluppato
+  negli anni precedenti e usato per tutto il Run-2 di LHC. Essa ha
+  permesso di far rimanere inalterata la risoluzione energetica di
+  ECAL rispetto agli effetti causati dal pileup, fino a 60 interazioni
+  per incrocio dei fasci, valore massimo durante il Run2.  Il
+  funzionamento dell'algoritmo \`e stato dimostrato su simulazioni
+  fino a una media di 200 interazioni per incrocio dei fasci, e si
+  prevede di usarlo per la fase di alta luminosit\`a di LHC: in questo
+  caso le prestazioni del multifit migliorano ancora, grazie alla
+  maggiore frequenza di campionamento dell'impulso. L'algoritmo e le
+  sue performance ottenute sui dati di Run2 Nello stesso ambito, mi
+  sono occupato personalmente della calibrazione della risposta in
+  energia dei cristalli mediante la risonanza $\pi^0\to\gamma\gamma$,
+  e questi input sono stati fndamentali nelle analisi del bosone di
+  Higgs nei decadimenti in due fotoni, ma anche per tutte le analisi
+  di CMS che, per i risultati aggiornati all'intero data set di Run-2
+  (${\cal L}_{\rm int}=137\,{\rm fb}^{-1}$), hanno utilizzato la
+  ricostruzione cosiddetta {\it Ultra-Legacy}.
+
+  Sono stato il chair di tutte le analisi che hanno studiato i
+  decadimenti $H\to\gamma\gamma$, dalla misura della massa del bosone
+  H, alle misure delle sezioni d'urto differenziali, alla prima misura
+  della produzione associata $t\bar{t}$H. Questi risultati sono in
+  accordo con le misure fatte durante il Run-1 da ATLAS e CMS, i cui
+  risultati, compatibili tra loro, sono stati combinati. In particolare
+  gli studi sulla scala di energia di ECAL durante i tre anni 2016-2018 sono
+  stati un ingrediente fondamentale di tutte queste misure. 
+
+  Sono membro dal 2019 del {\it Publication Committee} del gruppo del
+  bosone di Higgs di CMS e, da Settembre del 2021, sono chair dello
+  stesso comitato. Nel corso di questo periodo ho coordinato le
+  pubblicazioni di tutti gli articoli (circa 40) sul bosone di Higgs,
+  tra cui anche l'articolo pubblicato sulla rivista Nature con il
+  sommario di tutte le misure aggiornate al campione di dati di Run-2
+  in occasione dei 10 anni dalla scoperta dello stesso. Sono
+  attualmente anche l'autore principale, della misura degli
+  accoppiamenti del bosone di Higgs ai bosoni vettori massivi W e Z,
+  usando produzione VBF e produzione associata con W e Z: sono stato
+  il relatore di 3 tesi di laurea su questi argomenti, nonch\'e di
+  numerose dissertazioni di laurea triennale alla Sapienza.
+
+  Dal 2017 al 2020 sono stato l'autore principale delle misure
+  collegate alla determinazione della massa del bosone W con
+  l'esperimento CMS. In particolare ho messo a punto la misura della
+  sezione d'urto di produzione del bosone W, multi-differenziale
+  nell'elicit\`a, rapidit\`a del W, e inoltre doppio-differenziale
+  rispetto al momento trasverso e pseudo-rapidit\`a del leptone di
+  decadimento, combinando gli stati finali con elettrone e muone. La
+  misura \`e di rilevanza nel programma di misura della massa del
+  bosone W~[c17] che ha l'obiettivo di raggiungere una precisione
+  $\delta m_W/m_W\approx 10^{-4}$, poich\'e permette di vincolare
+  in-situ le PDF del protone nell'intervallo di momento rilevante. La
+  tecnica di unfolding sperimentale \`e all'avanguardia, avendo
+  sviluppato a tal scopo un algoritmo di minimizzazione della
+  likelihood alternativo a \textsc{MINUIT}, basato su
+  \textsc{TENSORFLOW}, che permette di trattare likelihood molto
+  complesse, con cuspidi locali e un numero di parametri misurati
+  simultaneamente superiore al migliaio. I risultati dell'analisi e la
+  descrizione degli strumenti innovativi sono stati pubblicati sulla
+  rivista \textit{Phys.\,Rev.\,D} nel 2020. La stessa tecnica di
+  misura e strumenti matematici si stanno usando per la prima misura
+  della massa del W in CMS, basandosi solamente sulla cinematica del
+  leptone, allo scopo di ridurre al minimo gli input teorici esterni,
+  come le PDF e il modello dello spettro in $p_T$ del bosone W.  Ci\`o
+  permetter\`a di minimizzare le sistematiche dominanti di tale misura
+  ad un collisore pp, quale LHC.
+
+
+  
+  Dati i limiti stringenti posti da queste ed altre misure di LHC su
+  segnali di nuova fisica, dall'inizio del 2017 mi occupo anche di
+  misure di fisica elettrodebole. In particolare, una delle misure
+  pi\`u ambiziose in questo campo \`e quella della massa del bosone
+  $W$. Questa misura \`e importante nell'ambito del fit elettrodebole,
+  in quanto, insieme alla massa del quark top, pone un vincolo alla
+  massa del bosone di Higgs. Il livello di precisione richiesto \`e
+  estremo (circa 10 MeV), che implica la necessit\`a della conoscenza
+  dell'impulso dei leptoni (muoni o elettroni), dell'ordine di
+  $\sigma_{P_T}/P_T \approx 10^{-4}$. Insieme ad altri membri del
+  gruppo CMS di Roma abbiamo iniziato l'analisi, includendo anche il
+  canale di decadimento in elettrone, in cui sfrutto l'asperienza
+  generale nell'analisi di dati e quella particolare sulla
+  calibrazione della scala di energia degli elettroni.  Questa misura
+  richiede anche un programma pi\`u esteso di misure, che sono
+  propedeutiche alla misura di $m_W$, quali la sezione d'urto
+  differenziale del bosone $Z$, in quanto permette di vincolare le
+  incertezze teoriche legate alla produzione del bosone $W$. Per far
+  questo, ho supervisionato e sto supervisionando anche studenti di
+  laurea e dottorato dei gruppi di CMS di Roma e Trieste con cui
+  collaboro.
+
+  Nell'ambito delle misure elettrodeboli, \`e stata finalizzata la
+  pubblicazione della misura della sezione d'urto di coppie di bosoni
+  $W$ a 8 TeV, che \`e stato un passo propedeutico alla ricerca del
+  bosone di Higgs nel canale $WW$ in RunI~\citemain{Khachatryan:2015sga}.
+  
+  Durante gli anni dal 2015 al 2017 ho partecipato a un progetto di
+  ricerca e sviluppo per rivelatori di segnali dovuti ai rinculi di
+  possibili WIMP con i nuclei della materia ordinaria (nell'ambito
+  della ricerca diretta di segnali di materia oscura). Questo
+  approccio permette una sensibilit\`a complementare alla ricerca di
+  CMS. Quelli studiati sono rivelatori a gas del tipo TPC ({\it Time
+    Projection Chambers}), che sfruttano la bassa densit\`a del mezzo
+  per permettere al rinculo nucleare di lasciare una traccia
+  sufficientemente lunga da essere rivelata. La piccola probabilit\`a
+  di interazione per\`o obbliga ad avere volumi di gas di decine o
+  centinaia di $m^3$. Lo sviluppo cui ho contribuito \`e stato quello
+  delle possibili rivelazione di tali segnali, mediante lettura
+  ottica.  Questa si basa su fotocamere ad alta precisione usate per
+  il tracciamento, eventualmente accoppiate con fotorivelatori molto
+  veloci che potrebbero essere usati per la ``fiducializzazione'' del
+  volume (tecnica per rigettare fondi da radioattivit\`a naturale
+  sulle pareti del rivelatore). Ho contribuito al setup sperimentale
+  di tre test alla BTF di Frascati su fascio di elettroni, e alla
+  prima analisi dei dati.
+  
+
+}
+
+\bibliographystylemain{unsrt}
+\bibliographymain{relazione2018}
+
+\citeall{*}
+\bibliographystyleall{unsrt}
+\bibliographyall{allpubs}
+
+
+\end{document}
+
+
+
+
