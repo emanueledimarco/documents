@@ -5,7 +5,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{cite}
-\usepackage{multibib}
+%\usepackage{multibib}
 \newcites{main}{Pubblicazioni scelte}
 \newcites{all}{Lista di tutte le altre pubblicazioni}
 \usepackage{filecontents}
@@ -51,8 +51,7 @@
   rivelatori che sfrutti rinculi nucleari di eventuali particelle
   massive di materia oscura, portandolo dalla fase di studio di
   fattibilit\`a a un primo prototipo in grado di prendere dati ai {\it
-    Laboratori Nazionali del Gran Sasso}, cosiddetto esperimento {\it
-    CYGNO}.
+    Laboratori Nazionali del Gran Sasso}, esperimento {\it CYGNO}.
 
   Nel periodo dal 2018 ad oggi ho continuato la mia attivit\`a di
   comprensione, miglioramento delle prestazioni del calorimetro
@@ -67,37 +66,45 @@
   fino a una media di 200 interazioni per incrocio dei fasci, e si
   prevede di usarlo per la fase di alta luminosit\`a di LHC: in questo
   caso le prestazioni del multifit migliorano ancora, grazie alla
-  maggiore frequenza di campionamento dell'impulso. L'algoritmo e le
-  sue performance ottenute sui dati di Run2 Nello stesso ambito, mi
-  sono occupato personalmente della calibrazione della risposta in
-  energia dei cristalli mediante la risonanza $\pi^0\to\gamma\gamma$,
-  e questi input sono stati fndamentali nelle analisi del bosone di
-  Higgs nei decadimenti in due fotoni, ma anche per tutte le analisi
-  di CMS che, per i risultati aggiornati all'intero data set di Run-2
-  (${\cal L}_{\rm int}=137\,{\rm fb}^{-1}$), hanno utilizzato la
-  ricostruzione cosiddetta {\it Ultra-Legacy}.
+  maggiore frequenza di campionamento dell'impulso. Ho scritto un
+  articolo pubblicato su \textit{JINST} su
+  questo~\cite{CMS:2020xlg}. Nello stesso ambito, mi sono occupato
+  personalmente della calibrazione della risposta in energia dei
+  cristalli mediante la risonanza $\pi^0\to\gamma\gamma$, e questi
+  input sono stati fondamentali nelle analisi del bosone di Higgs nei
+  decadimenti in due fotoni~\cite{CMS:2020xrn}, ma anche per tutte le
+  analisi di CMS che, per i risultati aggiornati all'intero data set
+  di Run-2 (${\cal L}_{\rm int}=137\,{\rm fb}^{-1}$), hanno utilizzato
+  la ricostruzione cosiddetta {\it Ultra-Legacy}. Sempre in questo
+  ambito, dal 2021, mi sto occupando del progetto di upgrade del
+  sistema di HV degli APD di ECAL, per quanto riguarda il rifacimento
+  dei cavi e di tutte le schede che contengono i canali HV (lato
+  tecnico e setup dell'eventuale gara per la fornitura), per un
+  graduale rimpiazzo degli stessi entro l'inizio della fase-2 di LHC
+  (HL-LHC).
 
-  Sono stato il chair di tutte le analisi che hanno studiato i
-  decadimenti $H\to\gamma\gamma$, dalla misura della massa del bosone
-  H, alle misure delle sezioni d'urto differenziali, alla prima misura
-  della produzione associata $t\bar{t}$H. Questi risultati sono in
-  accordo con le misure fatte durante il Run-1 da ATLAS e CMS, i cui
-  risultati, compatibili tra loro, sono stati combinati. In particolare
-  gli studi sulla scala di energia di ECAL durante i tre anni 2016-2018 sono
-  stati un ingrediente fondamentale di tutte queste misure. 
-
+  Sono stato il chair del comitato di review di tutte le analisi che
+  hanno studiato i decadimenti $H\to\gamma\gamma$, dalla misura della
+  massa del bosone H, alle misure delle sezioni d'urto
+  differenziali~\cite{CMS:2021kom}, alla prima misura della produzione
+  associata $t\bar{t}$H.  Dal 2021 mi sto ocupando personalmente della
+  misura degli accoppiamenti del bosone di Higgs ai bosoni vettori
+  massivi W e Z, usando produzione VBF e produzione associata con W e
+  Z e il decadimento in due fotoni: sono stato il relatore di 3 tesi
+  di laurea magistrale alla Sapienza su questi argomenti. I dati di
+  questo decadimento dovrebbero fornire una sensibilit\`a simile a
+  quella del canale di decadimento H$\to$ZZ$\to 4\ell$, al quale ho
+  precedentemente partecipato~\cite{CMS:2021nnc}.
+  
   Sono membro dal 2019 del {\it Publication Committee} del gruppo del
   bosone di Higgs di CMS e, da Settembre del 2021, sono chair dello
   stesso comitato. Nel corso di questo periodo ho coordinato le
   pubblicazioni di tutti gli articoli (circa 40) sul bosone di Higgs,
-  tra cui anche l'articolo pubblicato sulla rivista Nature con il
-  sommario di tutte le misure aggiornate al campione di dati di Run-2
-  in occasione dei 10 anni dalla scoperta dello stesso. Sono
-  attualmente anche l'autore principale, della misura degli
-  accoppiamenti del bosone di Higgs ai bosoni vettori massivi W e Z,
-  usando produzione VBF e produzione associata con W e Z: sono stato
-  il relatore di 3 tesi di laurea su questi argomenti, nonch\'e di
-  numerose dissertazioni di laurea triennale alla Sapienza.
+  tra cui la prima misura della larghezza intrinseca di questa
+  particella~\cite{CMS:2022ley} e l'articolo pubblicato sulla rivista
+  Nature con il sommario di tutte le misure aggiornate al campione di
+  dati di Run-2 in occasione dei 10 anni dalla scoperta dello
+  stesso~\cite{CMS:2022dwd}.
 
   Dal 2017 al 2020 sono stato l'autore principale delle misure
   collegate alla determinazione della massa del bosone W con
@@ -107,78 +114,86 @@
   rispetto al momento trasverso e pseudo-rapidit\`a del leptone di
   decadimento, combinando gli stati finali con elettrone e muone. La
   misura \`e di rilevanza nel programma di misura della massa del
-  bosone W~[c17] che ha l'obiettivo di raggiungere una precisione
-  $\delta m_W/m_W\approx 10^{-4}$, poich\'e permette di vincolare
-  in-situ le PDF del protone nell'intervallo di momento rilevante. La
-  tecnica di unfolding sperimentale \`e all'avanguardia, avendo
-  sviluppato a tal scopo un algoritmo di minimizzazione della
-  likelihood alternativo a \textsc{MINUIT}, basato su
-  \textsc{TENSORFLOW}, che permette di trattare likelihood molto
-  complesse, con cuspidi locali e un numero di parametri misurati
-  simultaneamente superiore al migliaio. I risultati dell'analisi e la
-  descrizione degli strumenti innovativi sono stati pubblicati sulla
-  rivista \textit{Phys.\,Rev.\,D} nel 2020. La stessa tecnica di
-  misura e strumenti matematici si stanno usando per la prima misura
-  della massa del W in CMS, basandosi solamente sulla cinematica del
-  leptone, allo scopo di ridurre al minimo gli input teorici esterni,
-  come le PDF e il modello dello spettro in $p_T$ del bosone W.  Ci\`o
-  permetter\`a di minimizzare le sistematiche dominanti di tale misura
-  ad un collisore pp, quale LHC.
+  bosone W. che ha l'obiettivo di raggiungere una precisione $\delta
+  m_W/m_W\approx 10^{-4}$, poich\'e permette di vincolare in-situ le
+  PDF del protone nell'intervallo di momento rilevante. La tecnica di
+  unfolding sperimentale \`e all'avanguardia, avendo sviluppato a tal
+  scopo un algoritmo di minimizzazione della likelihood alternativo a
+  \textsc{MINUIT}, basato su \textsc{TENSORFLOW}, che permette di
+  trattare likelihood molto complesse, con cuspidi locali e un numero
+  di parametri misurati simultaneamente superiore al migliaio. I
+  risultati dell'analisi e la descrizione degli strumenti innovativi
+  sono stati pubblicati sulla rivista \textit{Phys.\,Rev.\,D} nel
+  2020~\cite{CMS:2020cph}. La stessa tecnica di misura e strumenti
+  matematici si stanno usando per la prima misura della massa del W in
+  CMS, basandosi solamente sulla cinematica del leptone, allo scopo di
+  ridurre al minimo gli input teorici esterni, come le PDF e il
+  modello dello spettro in $p_T$ del bosone W.  Ci\`o permetter\`a di
+  minimizzare le sistematiche dominanti di tale misura ad un collisore
+  pp, quale LHC.
 
+  Durante il periodo in considerazione, sono stato (e sono ancora)
+  co-responsabile del centro di calcolo (\textit{Tier-2}) per i dati
+  di CMS di Roma, un sistema condiviso con l'esperimento ATLAS. Esso
+  \`e costituito da dieci rack che contengono qualche centinaio di
+  server di elaborazione dati (per un totale di circa 2500 core) e
+  archiviazione dei dati (per un totale di circa 2\,PB). Il centro di
+  calcolo permette l'eleborazione di circa il 20\% dei dati raccolti
+  dal LHC ogni anno, ed \`e connesso al sistema di \textit{grid}
+  mondiale. In questi anni mi sono occupato della pianificazione degli
+  upgrade e degli acquisti per il Tier-2 di CMS, per un investimento
+  medio di circa 100\,k\euro{} all'anno.
 
+  Nel suddetto periodo ho continuato la partecipazione allo sviluppo
+  dell'esperimento CYGNO~\cite{Pinci:2019ztr}, un rivelatore per la
+  ricerca diretta di materia oscura di tipo \textit{Weak Interacting
+    Massive Particle} (WIMP), che si manifesti nei rinculi delle
+  ipotetiche particelle sui nuclei di atomi di gas, con energia
+  cinetica di pochi keV. Mentre nel periodo 2015-2018 mi sono occupato
+  della caratterizzazione di diversi prototipi del rivelatore,
+  costituito da una TPC a gas con rivelatori GEM a lettura ottica
+  mediante una telecamera con sensore CMOS sensibile al singolo
+  fotone, negli anni successivi ho sviluppato la ricostruzione degli
+  eventi, rappresentati dalle immagini registrate dal sensore con
+  pi\`u di 4$\cdot$10$^6$ pixel.  Essa \`e principalmente un algoritmo
+  di clustering basato su tecniche avanzate di machine learning non
+  supervisionato, in grado di ricostruire efficientemente sia i
+  pattern semplici di depositi di energia di raggi X prodotti da
+  sorgenti radioattive, quali il $^{55}$Fe~\cite{Costa_2019}, ma anche
+  tracce pi\`u lunghe e complesse, prodotte da raggi cosmici o dalla
+  radioattivit\`a naturale. Ho analizzato i dati raccolti dal
+  prototipo {\it LEMON} ai Laboratori Nazionali di Frascati con varie
+  sorgenti radioattive, e con i raggi cosmici, in particolare con
+  rinculi nucleari di energie cinetiche nell'intervallo di interesse
+  per candidati WIMP, prodotti da una sorgente di $^{241}$Am contenuta
+  in una capsula di berillio, e scritto e pubblicato un articolo su
+  questo~\cite{Baracchini:2020nut}.  Nel 2022 il prototipo {\it LIME}
+  \`e stato portato ai Laboratori Nazionali del Gran Sasso, e sono
+  parte attiva nel commissioning del rivelatore grazie all'analisi dei
+  primissimi dati {\it underground}.  Dal 2018 sono anche il
+  coordinatore del gruppo di analisi dati dell'esperimento CYGNO, e mi
+  occupo del codice e dell'infrastruttura per la ricostruzione
+  ``prompt'' dei dataset raccolti dall'esperimento, usata da tutti i
+  membri della collaborazione internzazionale.
+
+  Durante questo periodo mi sono occupato anche di didattica relativa
+  al mio campo di interesse, come esercitatore per il corso di Fisica
+  Nucleare e Subnucleare 1 (dall'a.a. 2020-2021 ad oggi), come tutor
+  di esperienze di laboratorio per il corso di Laboratorio di Fisica
+  Nucleare 2 (dall'a.a. 2019-2020 ad oggi), come relatore di 3 tesi
+  magistrali, 1 tesi di dottorato e numerose dissertazioni triennali.
+
+  Inoltre in questo periodo sono stato referee articoli scientifici
+  per la rivista \textit{Physics Letters B}, per il settore di
+  ``Particle Physics, Nuclear Physics and Cosmology'', per la rivista
+  \textit{JHEP}, per la rivista ``Machine Learning: Science and
+  Technology'' ed editor della sezione ``Upgrades in High Energy
+  Physics Experiments'' della rivista \textit{Symmetry} di MDPI.
   
-  Dati i limiti stringenti posti da queste ed altre misure di LHC su
-  segnali di nuova fisica, dall'inizio del 2017 mi occupo anche di
-  misure di fisica elettrodebole. In particolare, una delle misure
-  pi\`u ambiziose in questo campo \`e quella della massa del bosone
-  $W$. Questa misura \`e importante nell'ambito del fit elettrodebole,
-  in quanto, insieme alla massa del quark top, pone un vincolo alla
-  massa del bosone di Higgs. Il livello di precisione richiesto \`e
-  estremo (circa 10 MeV), che implica la necessit\`a della conoscenza
-  dell'impulso dei leptoni (muoni o elettroni), dell'ordine di
-  $\sigma_{P_T}/P_T \approx 10^{-4}$. Insieme ad altri membri del
-  gruppo CMS di Roma abbiamo iniziato l'analisi, includendo anche il
-  canale di decadimento in elettrone, in cui sfrutto l'asperienza
-  generale nell'analisi di dati e quella particolare sulla
-  calibrazione della scala di energia degli elettroni.  Questa misura
-  richiede anche un programma pi\`u esteso di misure, che sono
-  propedeutiche alla misura di $m_W$, quali la sezione d'urto
-  differenziale del bosone $Z$, in quanto permette di vincolare le
-  incertezze teoriche legate alla produzione del bosone $W$. Per far
-  questo, ho supervisionato e sto supervisionando anche studenti di
-  laurea e dottorato dei gruppi di CMS di Roma e Trieste con cui
-  collaboro.
-
-  Nell'ambito delle misure elettrodeboli, \`e stata finalizzata la
-  pubblicazione della misura della sezione d'urto di coppie di bosoni
-  $W$ a 8 TeV, che \`e stato un passo propedeutico alla ricerca del
-  bosone di Higgs nel canale $WW$ in RunI~\citemain{Khachatryan:2015sga}.
-  
-  Durante gli anni dal 2015 al 2017 ho partecipato a un progetto di
-  ricerca e sviluppo per rivelatori di segnali dovuti ai rinculi di
-  possibili WIMP con i nuclei della materia ordinaria (nell'ambito
-  della ricerca diretta di segnali di materia oscura). Questo
-  approccio permette una sensibilit\`a complementare alla ricerca di
-  CMS. Quelli studiati sono rivelatori a gas del tipo TPC ({\it Time
-    Projection Chambers}), che sfruttano la bassa densit\`a del mezzo
-  per permettere al rinculo nucleare di lasciare una traccia
-  sufficientemente lunga da essere rivelata. La piccola probabilit\`a
-  di interazione per\`o obbliga ad avere volumi di gas di decine o
-  centinaia di $m^3$. Lo sviluppo cui ho contribuito \`e stato quello
-  delle possibili rivelazione di tali segnali, mediante lettura
-  ottica.  Questa si basa su fotocamere ad alta precisione usate per
-  il tracciamento, eventualmente accoppiate con fotorivelatori molto
-  veloci che potrebbero essere usati per la ``fiducializzazione'' del
-  volume (tecnica per rigettare fondi da radioattivit\`a naturale
-  sulle pareti del rivelatore). Ho contribuito al setup sperimentale
-  di tre test alla BTF di Frascati su fascio di elettroni, e alla
-  prima analisi dei dati.
-  
-
 }
 
 \bibliographystylemain{unsrt}
-\bibliographymain{relazione2018}
+\bibliographymain{relazione2022}
 
 \citeall{*}
 \bibliographystyleall{unsrt}
