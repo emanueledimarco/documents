@@ -5,15 +5,16 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{cite}
-%\usepackage{multibib}
-\newcites{main}{Pubblicazioni scelte}
-\newcites{all}{Lista di tutte le altre pubblicazioni}
+\usepackage{multibib}
+\newcites{main}{10 pubblicazioni scelte dal 2018 al 2022}
+\newcites{all}{Lista di tutte le altre pubblicazioni dal 2018 al 2022}
 \usepackage{filecontents}
 \usepackage[english,italian]{babel}
 \pagestyle{headings}
 \title{dfdfd}
 %\maketitle
 \usepackage[dvips]{graphicx}
+\usepackage{eurosym}
 \usepackage{fontenc}
 \usepackage{epic,rotating,epsfig}
 \usepackage{times}
@@ -33,7 +34,7 @@
 \vspace*{2.20cm}
 
 \begin{center}
-  {\LARGE \bf Relazione sull'attivit\`a svolta dal 01/04/2018} \\
+  {\LARGE \bf Relazione sull'attivit\`a svolta dal 2018 al 2022} \\
   \vspace*{0.2cm}
   {\large \it Emanuele Di Marco}
 \end{center}
@@ -44,67 +45,63 @@
   si inserisce nella ricerca di fenomeni non previsti dal Modello
   Standard delle particelle elementari, nonch\'e di misure di
   parametri fondamentali dello stesso, soprattutto nell'ambito
-  dell'esperimento {\it CMS} al {\it Large Hadron Collider} del {\it
-    CERN} di Ginevra. In contemporanea ho sviluppato il lavoro
-  iniziato dalla data della mia assunzione del 2015 su un progetto di
-  ricerca diretta di segnali di materia oscura, dallo sviluppo di
-  rivelatori che sfrutti rinculi nucleari di eventuali particelle
-  massive di materia oscura, portandolo dalla fase di studio di
-  fattibilit\`a a un primo prototipo in grado di prendere dati ai {\it
-    Laboratori Nazionali del Gran Sasso}, esperimento {\it CYGNO}.
+  dell'esperimento {\it CMS} al {\it Large Hadron Collider} (LHC) del
+  {\it CERN} di Ginevra. Allo stesso tempo ho sviluppato il lavoro
+  relativo all'esperimento {\it CYGNO}, per la ricerca di segnali di
+  materia oscura, portandolo dallo stadio di studio di fattibilit\`a
+  all'installazione di un primo prototipo in grado di prendere dati ai
+  {\it Laboratori Nazionali del Gran Sasso}.
 
-  Nel periodo dal 2018 ad oggi ho continuato la mia attivit\`a di
-  comprensione, miglioramento delle prestazioni del calorimetro
-  elettromagnetico di CMS, {\it ECAL}, attraverso la calibrazione
-  delle {\it pulse shape} dei fotorivelatori dei cristalli, usate come
-  input dell'algoritmo di ricostruzione dell'energia che ho sviluppato
-  negli anni precedenti e usato per tutto il Run-2 di LHC. Essa ha
-  permesso di far rimanere inalterata la risoluzione energetica di
-  ECAL rispetto agli effetti causati dal pileup, fino a 60 interazioni
-  per incrocio dei fasci, valore massimo durante il Run2.  Il
-  funzionamento dell'algoritmo \`e stato dimostrato su simulazioni
-  fino a una media di 200 interazioni per incrocio dei fasci, e si
-  prevede di usarlo per la fase di alta luminosit\`a di LHC: in questo
-  caso le prestazioni del multifit migliorano ancora, grazie alla
-  maggiore frequenza di campionamento dell'impulso. Ho scritto un
-  articolo pubblicato su \textit{JINST} su
-  questo~\cite{CMS:2020xlg}. Nello stesso ambito, mi sono occupato
-  personalmente della calibrazione della risposta in energia dei
-  cristalli mediante la risonanza $\pi^0\to\gamma\gamma$, e questi
-  input sono stati fondamentali nelle analisi del bosone di Higgs nei
-  decadimenti in due fotoni~\cite{CMS:2020xrn}, ma anche per tutte le
-  analisi di CMS che, per i risultati aggiornati all'intero data set
-  di Run-2 (${\cal L}_{\rm int}=137\,{\rm fb}^{-1}$), hanno utilizzato
-  la ricostruzione cosiddetta {\it Ultra-Legacy}. Sempre in questo
-  ambito, dal 2021, mi sto occupando del progetto di upgrade del
-  sistema di HV degli APD di ECAL, per quanto riguarda il rifacimento
-  dei cavi e di tutte le schede che contengono i canali HV (lato
-  tecnico e setup dell'eventuale gara per la fornitura), per un
-  graduale rimpiazzo degli stessi entro l'inizio della fase-2 di LHC
-  (HL-LHC).
+  Nel periodo dal 2018 ad oggi ho proseguito la mia attivit\`a di
+  comprensione e miglioramento delle prestazioni del calorimetro
+  elettromagnetico di CMS ({\it ECAL}), attraverso la calibrazione
+  delle {\it pulse shape} dei fotorivelatori dei cristalli, che sono
+  usate come input dell'algoritmo di ricostruzione dell'energia da me
+  proposto e sviluppato negli anni precedenti, e che \`e stato usato
+  per tutto il Run-2 di LHC. Essa ha permesso di far rimanere
+  inalterata la risoluzione energetica di ECAL rispetto agli effetti
+  causati dal pileup, fino a 60 interazioni per incrocio dei fasci,
+  valore massimo durante il Run2.  Il funzionamento dell'algoritmo \`e
+  anche stato dimostrato su simulazioni fino a una media di 200
+  interazioni per incrocio dei fasci, e si prevede di usarlo per la
+  fase di alta luminosit\`a di LHC. Ho scritto un articolo pubblicato
+  su \textit{JINST} su questo~\citemain{sp_CMS:2020xlg}. Sempre nell'ambito
+  delle prestazioni di ECAL, mi sono occupato personalmente della
+  calibrazione della risposta in energia dei cristalli mediante la
+  risonanza $\pi^0\to\gamma\gamma$, e questa misura \`e stata
+  fondamentale nelle analisi dati riguardanti i decadimenti del bosone
+  di Higgs in due fotoni~\citemain{sp_CMS:2020xrn}. In generale queste
+  calibrazioni sono state usate per tutte le analisi di CMS che hanno
+  usato l'intero data set di Run-2 (${\cal L}_{\rm int}=137\,{\rm
+    fb}^{-1}$). Inoltre, a partire dal 2021, mi sto occupando del
+  progetto di upgrade del sistema di HV degli APD di ECAL, per quanto
+  riguarda il rifacimento dei cavi e di tutte le schede che contengono
+  i canali HV (lato tecnico e setup dell'eventuale gara per la
+  fornitura), per un graduale rimpiazzo degli stessi entro l'inizio
+  della fase-2 di LHC (HL-LHC).
 
   Sono stato il chair del comitato di review di tutte le analisi che
   hanno studiato i decadimenti $H\to\gamma\gamma$, dalla misura della
   massa del bosone H, alle misure delle sezioni d'urto
-  differenziali~\cite{CMS:2021kom}, alla prima misura della produzione
+  differenziali~\citemain{sp_CMS:2021kom}, alla prima misura della produzione
   associata $t\bar{t}$H.  Dal 2021 mi sto ocupando personalmente della
   misura degli accoppiamenti del bosone di Higgs ai bosoni vettori
-  massivi W e Z, usando produzione VBF e produzione associata con W e
+  massivi, usando produzione VBF e produzione associata con W e
   Z e il decadimento in due fotoni: sono stato il relatore di 3 tesi
   di laurea magistrale alla Sapienza su questi argomenti. I dati di
   questo decadimento dovrebbero fornire una sensibilit\`a simile a
   quella del canale di decadimento H$\to$ZZ$\to 4\ell$, al quale ho
-  precedentemente partecipato~\cite{CMS:2021nnc}.
+  precedentemente partecipato~\citemain{sp_CMS:2021nnc}.
   
   Sono membro dal 2019 del {\it Publication Committee} del gruppo del
   bosone di Higgs di CMS e, da Settembre del 2021, sono chair dello
   stesso comitato. Nel corso di questo periodo ho coordinato le
   pubblicazioni di tutti gli articoli (circa 40) sul bosone di Higgs,
   tra cui la prima misura della larghezza intrinseca di questa
-  particella~\cite{CMS:2022ley} e l'articolo pubblicato sulla rivista
+  particella~\citemain{sp_CMS:2022ley} e l'articolo pubblicato sulla rivista
   Nature con il sommario di tutte le misure aggiornate al campione di
   dati di Run-2 in occasione dei 10 anni dalla scoperta dello
-  stesso~\cite{CMS:2022dwd}.
+  stesso~\citemain{sp_CMS:2022dwd}.
 
   Dal 2017 al 2020 sono stato l'autore principale delle misure
   collegate alla determinazione della massa del bosone W con
@@ -124,7 +121,7 @@
   di parametri misurati simultaneamente superiore al migliaio. I
   risultati dell'analisi e la descrizione degli strumenti innovativi
   sono stati pubblicati sulla rivista \textit{Phys.\,Rev.\,D} nel
-  2020~\cite{CMS:2020cph}. La stessa tecnica di misura e strumenti
+  2020~\citemain{sp_CMS:2020cph}. La stessa tecnica di misura e strumenti
   matematici si stanno usando per la prima misura della massa del W in
   CMS, basandosi solamente sulla cinematica del leptone, allo scopo di
   ridurre al minimo gli input teorici esterni, come le PDF e il
@@ -145,7 +142,7 @@
   medio di circa 100\,k\euro{} all'anno.
 
   Nel suddetto periodo ho continuato la partecipazione allo sviluppo
-  dell'esperimento CYGNO~\cite{Pinci:2019ztr}, un rivelatore per la
+  dell'esperimento CYGNO~\citemain{sp_Pinci:2019ztr}, un rivelatore per la
   ricerca diretta di materia oscura di tipo \textit{Weak Interacting
     Massive Particle} (WIMP), che si manifesti nei rinculi delle
   ipotetiche particelle sui nuclei di atomi di gas, con energia
@@ -156,48 +153,51 @@
   fotone, negli anni successivi ho sviluppato la ricostruzione degli
   eventi, rappresentati dalle immagini registrate dal sensore con
   pi\`u di 4$\cdot$10$^6$ pixel.  Essa \`e principalmente un algoritmo
-  di clustering basato su tecniche avanzate di machine learning non
+  di clustering basato su tecniche di machine learning non
   supervisionato, in grado di ricostruire efficientemente sia i
   pattern semplici di depositi di energia di raggi X prodotti da
-  sorgenti radioattive, quali il $^{55}$Fe~\cite{Costa_2019}, ma anche
-  tracce pi\`u lunghe e complesse, prodotte da raggi cosmici o dalla
-  radioattivit\`a naturale. Ho analizzato i dati raccolti dal
+  sorgenti radioattive, quali il $^{55}$Fe~\citemain{sp_Costa:2019tnu}, ma
+  anche tracce pi\`u lunghe e complesse, prodotte da raggi cosmici o
+  dalla radioattivit\`a naturale. Ho analizzato i dati raccolti dal
   prototipo {\it LEMON} ai Laboratori Nazionali di Frascati con varie
   sorgenti radioattive, e con i raggi cosmici, in particolare con
   rinculi nucleari di energie cinetiche nell'intervallo di interesse
   per candidati WIMP, prodotti da una sorgente di $^{241}$Am contenuta
   in una capsula di berillio, e scritto e pubblicato un articolo su
-  questo~\cite{Baracchini:2020nut}.  Nel 2022 il prototipo {\it LIME}
-  \`e stato portato ai Laboratori Nazionali del Gran Sasso, e sono
-  parte attiva nel commissioning del rivelatore grazie all'analisi dei
-  primissimi dati {\it underground}.  Dal 2018 sono anche il
-  coordinatore del gruppo di analisi dati dell'esperimento CYGNO, e mi
-  occupo del codice e dell'infrastruttura per la ricostruzione
-  ``prompt'' dei dataset raccolti dall'esperimento, usata da tutti i
-  membri della collaborazione internzazionale.
+  questo~\citemain{sp_Baracchini:2020nut}.  Nel 2022 il prototipo {\it
+    LIME} \`e stato portato ai Laboratori Nazionali del Gran Sasso, e
+  sono parte attiva nel commissioning del rivelatore grazie
+  all'analisi dei primissimi dati {\it underground}.  Dal 2018 sono
+  anche il coordinatore del gruppo di analisi dati dell'esperimento
+  CYGNO, e mi occupo del codice e dell'infrastruttura per la
+  ricostruzione ``prompt'' dei dataset raccolti dall'esperimento,
+  usata da tutti i membri della collaborazione internazionale. Dal
+  2019 al 2021 sono stato anche membro del \textit{Publication
+    Committee} di CYGNO.
 
-  Durante questo periodo mi sono occupato anche di didattica relativa
-  al mio campo di interesse, come esercitatore per il corso di Fisica
-  Nucleare e Subnucleare 1 (dall'a.a. 2020-2021 ad oggi), come tutor
-  di esperienze di laboratorio per il corso di Laboratorio di Fisica
-  Nucleare 2 (dall'a.a. 2019-2020 ad oggi), come relatore di 3 tesi
-  magistrali, 1 tesi di dottorato e numerose dissertazioni triennali.
+  Durante il periodo in considerazione mi sono occupato anche di
+  didattica relativa al mio campo di interesse, come esercitatore per
+  il corso di Fisica Nucleare e Subnucleare 1 (dall'a.a. 2020-2021 ad
+  oggi), come tutor di esperienze di laboratorio per il corso di
+  Laboratorio di Fisica Nucleare 2 (dall'a.a. 2019-2020 ad oggi), come
+  relatore di 3 tesi magistrali, 1 tesi di dottorato e numerose
+  dissertazioni triennali.
 
   Inoltre in questo periodo sono stato referee articoli scientifici
-  per la rivista \textit{Physics Letters B}, per il settore di
-  ``Particle Physics, Nuclear Physics and Cosmology'', per la rivista
+  per la rivista \textit{Physics Letters B} (nel settore di
+  ``Particle Physics, Nuclear Physics and Cosmology''), per la rivista
   \textit{JHEP}, per la rivista ``Machine Learning: Science and
-  Technology'' ed editor della sezione ``Upgrades in High Energy
+  Technology'', ed editor della sezione ``Upgrades in High Energy
   Physics Experiments'' della rivista \textit{Symmetry} di MDPI.
   
 }
 
 \bibliographystylemain{unsrt}
-\bibliographymain{relazione2022}
+\bibliographymain{mainpub}
 
 \citeall{*}
 \bibliographystyleall{unsrt}
-\bibliographyall{allpubs}
+\bibliographyall{INSPIRE-CiteAll-2018-2022}
 
 
 \end{document}
