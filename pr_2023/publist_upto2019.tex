@@ -1,0 +1,41 @@
+\documentclass[11pt,twoside,a4paper]{article}
+\usepackage{graphicx} 
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+\thispagestyle{empty}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hoffset = -2.0 cm
+\voffset = -3.0 cm
+\textheight = 25.0 cm
+\marginparwidth = 1.0 cm
+\evensidemargin = 1.0 cm
+\textwidth =16.1 cm
+\renewcommand{\arraystretch}{1.5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% remove "References" title
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\vskip 1.0 truecm
+\begin{center}
+{\bf{Lista complessiva delle pubblicazioni}}
+\end{center}
+\vskip 0.5 truecm
+
+\nocite{*}
+
+\bibliographystyle{habbrvyr} % reverse cronological order using habbrvyr.bst
+\bibliography{INSPIRE-CiteAll-2004-2019}
+
+\end{document}
